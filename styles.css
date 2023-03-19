@@ -1,0 +1,18 @@
+.task_div{
+    border: 2px solid black;
+    padding: 30px;
+    text-align: center;
+    
+}
+table{
+    text-align: center;
+    border: 1px solid rgb(0, 0, 0) ;
+    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+th,td{
+    border: 0.5px solid grey;
+}
+

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+</head>
+<body>
+    <div class="task_div">
+        <h1>TASK1</h1>
+        <form action="">
+            <label for="">Password:</label> <br>
+            <input type="text" id="Password" ><br>
+            <label for=""> Confirm Password:</label> <br>
+            <input type="text" id="ConfirmPassword">
+            <div id="msg"></div>
+        </form>
+       
+    </div>
+    <div class="task_div">
+        <h1>TASK2</h1>
+        <button id="evenrow">Color even rows</button><button id="oddrow">Color odd rows</button>
+        <table>
+            <thead>
+              <tr>
+                <th>Company</th>
+              <th>Contact</th>
+              <th>Country</th>
+            </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Cedcoss</td>
+                    <td>Lucknow</td>
+                    <td>India</td>
+                </tr>
+                <tr>
+                    <td>Cedcoss</td>
+                    <td>Lucknow</td>
+                    <td>India</td>
+                </tr>
+                <tr>
+                    <td>Cedcoss</td>
+                    <td>Lucknow</td>
+                    <td>India</td>
+                </tr>
+                <tr>
+                    <td>Cedcoss</td>
+                    <td>Lucknow</td>
+                    <td>India</td>
+                </tr>
+                <tr>
+                    <td>Cedcoss</td>
+                    <td>Lucknow</td>
+                    <td>India</td>
+                </tr>
+            </tbody>
+    </table>
+    </div>
+    <div class="task_div">
+        <h1>TASK4</h1>
+        <form action="">
+            <input  id="enterclass" type="text" placeholder="Enter Class" class="btnDelete">
+            <input id="enterboard"  type="text" placeholder="Enter Board" class="btnDelete">
+            <input id="entermarks"  type="text" placeholder="Enter Marks" class="btnDelete">
+            <input id="enterdivision"  type="text" placeholder="Enter division" class="btnDelete">
+            <input type="button" id="addrow" value="+" >
+            <input type="button" value="-">
+        </form>
+        <table id="maintable"></table>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
